@@ -1,35 +1,22 @@
 # OKD CLI
 
+## Description
+
+All binaries packed by UPX
+
+----
+
 ## Versions
 
-```bash
-for i in `ls -1` ; do echo -e "\n$i" &&./$i version ; done
-```
+| Binary Name | Package Version                | Release                                      |
+|-------------|--------------------------------|----------------------------------------------|
+| kubectl4.10 | 4.10.0-0.okd-2022-03-07-131213 | https://github.com/okd-project/okd/releases  |
+| oc4.10      | 4.10.0-0.okd-2022-03-07-131213 | https://github.com/okd-project/okd/releases  |
+| kubectl3.11 | v3.11.0-0cbc58b                | https://github.com/openshift/origin/releases |
+| oc3.11      | v3.11.0-0cbc58b                | https://github.com/openshift/origin/releases |
+
+### Verify versions
 
 ```bash
-kubectl3.11.0
-oc v3.11.0+0cbc58b
-kubernetes v1.11.0+d4cacc0
-features: Basic-Auth GSSAPI Kerberos SPNEGO
-
-Server https://0.0.0.0:35255
-kubernetes v1.23.6+k3s1
-
-kubectl4.11.0
-Client Version: 4.11.0-0.okd-2022-12-02-145640
-Kustomize Version: v4.5.4
-Kubernetes Version: v1.23.6+k3s1
-
-oc3.11.0
-oc v3.11.0+0cbc58b
-kubernetes v1.11.0+d4cacc0
-features: Basic-Auth GSSAPI Kerberos SPNEGO
-
-Server https://0.0.0.0:35255
-kubernetes v1.23.6+k3s1
-
-oc4.11.0
-Client Version: 4.11.0-0.okd-2022-12-02-145640
-Kustomize Version: v4.5.4
-Kubernetes Version: v1.23.6+k3s1
+for i in `ls -1` ; do echo -e "\n$i" && ./$i version 2>/dev/null ; done
 ```
