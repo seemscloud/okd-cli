@@ -10,9 +10,8 @@ All binaries packed by UPX
 
 | Binary Name | Package Version                | Release                                      |
 |-------------|--------------------------------|----------------------------------------------|
-| kubectl4.10 | 4.10.0-0.okd-2022-03-07-131213 | https://github.com/okd-project/okd/releases  |
-| oc4.10      | 4.10.0-0.okd-2022-03-07-131213 | https://github.com/okd-project/okd/releases  |
-| kubectl3.11 | v3.11.0-0cbc58b                | https://github.com/openshift/origin/releases |
+| oc4.11      | 4.11.0-0.okd-2023-01-14-152430 | https://github.com/okd-project/okd/releases  |
+| oc4.10      | 4.10.0-0.okd-2022-07-09-073606 | https://github.com/okd-project/okd/releases  |
 | oc3.11      | v3.11.0-0cbc58b                | https://github.com/openshift/origin/releases |
 
 ### Verify versions
